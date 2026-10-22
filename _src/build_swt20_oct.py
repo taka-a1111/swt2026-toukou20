@@ -14,7 +14,7 @@ def rep(old, new, count):
     s = s.replace(old, new)
 
 BT_OLD = '<!-- BUILD_TAG: swt2026_toukou20_ver1.0 / 2026-09-16 -->'
-BT_NEW = '<!-- BUILD_TAG: swt2026_toukou20_oct_ver1.0 / 2026-10-22 -->'
+BT_NEW = '<!-- BUILD_TAG: swt2026_toukou20_oct_ver1.1 / 2026-10-22 -->'
 rep(BT_OLD, BT_NEW, 1)
 
 # ---- 画像変更＋追加でスライドショーに（現在の画像は使わない） ----
@@ -25,8 +25,8 @@ rep('''    <div class="media-slot" id="mediaSlot">
     </div>''',
 '''    <div class="media-slot" id="mediaSlot">
       <img src="images/system-outline.jpg" alt="論文投稿・査読システムの仕組み：投稿者・管理者・査読者がオンラインでつながり、論文の受付から判定まで管理できます" width="1821" height="864">
-      <img src="images/slide-02.jpg" alt="データを確認しながら業務を進めるイメージ" width="7360" height="4140" loading="lazy">
-      <img src="images/slide-03.jpg" alt="複数の画面で投稿状況を確認するイメージ" width="8192" height="4320" loading="lazy">
+      <img src="images/slide-02.jpg" alt="データを確認しながら業務を進めるイメージ" width="2400" height="1350" loading="lazy">
+      <img src="images/slide-03.jpg" alt="複数の画面で投稿状況を確認するイメージ" width="2400" height="1266" loading="lazy">
     </div>''', 1)
 
 # ---- FAQ追加（「論文投稿のお悩みを、まとめて解決。」の下・緑ラインの位置） ----
